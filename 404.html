@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Страница не найдена — Еленика</title>
+    <script>
+      (function () {
+        var parts = window.location.pathname.split('/').filter(Boolean)
+        var isProjectPage = parts.length > 1
+        var base = isProjectPage ? '/' + parts.shift() + '/' : '/'
+        var route = '/' + parts.join('/') + window.location.search
+        window.location.replace(base + '#'+ route)
+      })()
+    </script>
+  </head>
+  <body></body>
+</html>

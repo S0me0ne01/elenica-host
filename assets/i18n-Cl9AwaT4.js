@@ -1,0 +1,1 @@
+import{n as e,r as t,t as n}from"./index-B62N2bS0.js";var r=n({legacy:!1,locale:`ru`,fallbackLocale:`ru`,messages:{ru:e}}),i=t(({app:e})=>{e.use(r)});export{i as default};
